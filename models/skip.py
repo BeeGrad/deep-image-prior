@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from .common import *
+from models.common import *
 
 def skip(
         num_input_channels=2, num_output_channels=3, 

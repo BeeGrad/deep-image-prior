@@ -1,7 +1,7 @@
 import torch
-import torch.nn as nn
 import numpy as np
-from .downsampler import Downsampler
+import torch.nn as nn
+from models.downsampler import Downsampler
 
 def add_module(self, module):
     self.add_module(str(len(self) + 1), module)

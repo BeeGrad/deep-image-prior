@@ -1,10 +1,10 @@
 import torch
+import torch.nn.init
 import torch.nn as nn
+from math import sqrt
 from numpy.random import normal
 from numpy.linalg import svd
-from math import sqrt
-import torch.nn.init
-from .common import *
+from models.common import *
 
 class ResidualSequential(nn.Sequential):
     def __init__(self, *args):
